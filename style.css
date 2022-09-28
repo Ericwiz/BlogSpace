@@ -11,8 +11,9 @@ nav {
     left: 0;
     right: 0;
     background-color: aquamarine;
+    padding: 1.5rem 1rem;
     height: 30px;
-    padding: 2rem 1rem;
+    
     display: flex;
     align-items: center;
 }
@@ -25,3 +26,40 @@ nav {
 .container {
     padding-top: 50px;
 }
+
+form {
+    padding: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(#f12711, #f5af19) ;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+input, textarea {
+    margin: .8rem 0;
+    max-width: 85%;
+    padding: .5rem 1rem;
+    border: none;
+    outline: none;
+}
+
+.active:focus {
+    outline: 3px solid #2193b0;
+}
+
+button {
+    max-width: 85%;
+    padding: .4rem 0;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+button:active {
+    outline: 3px solid #2193b0;
+}
+
