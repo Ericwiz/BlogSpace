@@ -14,6 +14,7 @@ function renderPosts() {
             html += `
             <h3>${post.title}</h3>
             <p>${post.body}</p>
+            <hr>
         `
         }
 
@@ -53,6 +54,8 @@ formBtn.addEventListener('submit', e => {
             postArray.splice(0, 0,post)
             renderPosts()
         });
+    
+    formBtn.reset()
 })
 
 

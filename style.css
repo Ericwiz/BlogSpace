@@ -72,3 +72,13 @@ button:active {
     outline: 3px solid #2193b0;
 }
 
+h3 {
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+p {
+    font-size: 1.3rem;
+    padding: 0 0 1rem 0;
+}
+
